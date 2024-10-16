@@ -1,7 +1,7 @@
 export default function ResumePage() {
     return (
       <div className="container pt-4">
-        <h2>Contact</h2>
+        <h2>Resume</h2>
         <p>Download my <a>resume</a></p>
         <div>
             <h3>Front-end Proficiencies</h3>
