@@ -1,0 +1,15 @@
+.proficiencies-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: 0.8;
+}
+
+#resume {
+  text-decoration:underline;
+  color: var(--dark);
+}
+
+#resume:hover {
+  color: var(--secondary);
+}

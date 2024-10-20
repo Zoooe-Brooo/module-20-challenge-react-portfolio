@@ -1,20 +1,14 @@
 import '../styles/AboutMe.css';
+import profilePicture from '../assets/zoe-profile.jpg';
 
 export default function AboutMePage() {
-    return (
-      <div className="container pt-4">
-        <h2>About Me</h2>
-        <img src="https://via.placeholder.com/150" alt="Zoe" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-      </div>
-    );
-  }
+  return (
+    <div className="container pt-4">
+      <h2>About Me</h2>
+      <img src={profilePicture} id="profile-img" alt="Zoe" />
+      <p>I am passionate about being a new web developer in a near future!</p>
+      <p>I was born and grow up in China, and first came to Australia in 2016. My background are Bachelor of Law and Master of Social Work, despite irrelevant to IT Industry, I still believe there are some transferable abilities and skills that I can utilise to my new role.</p>  
+    </div>
+  );
+}
   

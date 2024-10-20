@@ -22,6 +22,5 @@ footer {
   }
   
   footer ul li a:hover {
-    /* background-size: 100% 88%; */
     color: var(--secondary);
   }
