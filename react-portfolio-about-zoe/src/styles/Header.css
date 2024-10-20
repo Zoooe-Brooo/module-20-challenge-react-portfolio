@@ -1,0 +1,16 @@
+header {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--dark);
+}
+
+header h1 {
+  color: var(--light);
+  padding: 20px;
+  margin: 0;
+}
+  

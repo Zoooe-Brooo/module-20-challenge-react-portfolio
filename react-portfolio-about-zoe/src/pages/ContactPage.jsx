@@ -1,7 +1,11 @@
+import '../styles/Contact.css';
+
 export default function ContactPage() {
     return (
       <div className="container pt-4">
         <h2>Contact</h2>
+        <p>My Email: zhongwenli.zoe@gmail.com</p>
+        <p>My Phone Number: +61 423711648</p>
         <form>
             <div className="mb-3">
                 <label htmlFor="name" className="form-label">

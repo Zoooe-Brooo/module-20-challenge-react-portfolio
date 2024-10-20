@@ -1,3 +1,5 @@
+import '../styles/AboutMe.css';
+
 export default function AboutMePage() {
     return (
       <div className="container pt-4">

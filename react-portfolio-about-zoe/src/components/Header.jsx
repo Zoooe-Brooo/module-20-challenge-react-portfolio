@@ -1,10 +1,13 @@
-import Navigation from './UI/Navigation';
+import Navigation from './Navigation';
+import '../styles/Header.css';
 
 export default function Header() {
   return (
     <>
-      <h1>Zoe</h1>
-      <Navigation />
+      <header>
+        <h1>Zoe</h1>
+        <Navigation />
+      </header>
     </>
   );
 }
