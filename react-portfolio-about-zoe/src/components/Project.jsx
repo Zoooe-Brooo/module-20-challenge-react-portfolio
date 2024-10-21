@@ -5,7 +5,7 @@ export default function Project({ image, name, website, github }) {
         <>
             <img src={image} className="project-img" alt="Project Picture" /><br />
             <a href={website} className="project-anchor">{name}</a><br />
-            <a href={github} className="project-anchor">GitHub Code</a>
+            <a href={github} className="project-anchor">GitHub Repo</a>
         </>
     );
 }
