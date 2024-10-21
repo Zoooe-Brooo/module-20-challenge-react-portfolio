@@ -6,7 +6,6 @@ import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
 import './styles/index.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const router = createBrowserRouter([
   {

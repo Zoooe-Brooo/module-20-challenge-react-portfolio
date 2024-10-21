@@ -3,25 +3,21 @@ import '../styles/Navigation.css';
 
 export default function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg bg-secondary">
-      <div className="container-fluid">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link className="nav-link text-light" to="/">About Me</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-light" to="/portfolio">Portfolio</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-light" to="/contact">Contact</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link text-light" to="/resume">Resume</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">About Me</Link>
+        </li>
+        <li>
+          <Link to="/portfolio">Portfolio</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="/resume">Resume</Link>
+        </li>
+      </ul>
     </nav>
   );
 }

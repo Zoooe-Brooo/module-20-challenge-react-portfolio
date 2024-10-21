@@ -3,7 +3,7 @@ import '../styles/Footer.css';
 export default function Footer() {
     return (
         <>
-            <footer className="bg-dark text-light text-center p-3">
+            <footer>
                 <ul>
                     <li><a href="https://github.com/Zoooe-Brooo">GitHub</a></li>
                     <li><a href="https://www.linkedin.com/in/wenli-zhong-1b5b95328/">LinkedIn</a></li>

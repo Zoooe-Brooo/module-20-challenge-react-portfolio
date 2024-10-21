@@ -56,14 +56,12 @@ export default function PortfolioPage() {
     return (
         <>
             <h2>Portfolio</h2>
-            <div className="container">
-                <div className="row">
-                    {projects.map((project) => (
-                        <div key={project.project_id} className="project-card col-md-4">
-                            <Project {...project} />
-                        </div>
-                    ))}
-                </div>
+            <div className="flex-container">
+                {projects.map((project) => (
+                    <div key={project.project_id} className="project flex-item">
+                        <Project {...project} />
+                    </div>
+                ))}
             </div>
         </>
     );

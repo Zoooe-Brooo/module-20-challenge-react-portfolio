@@ -8,12 +8,19 @@
   --secondary: #8FD694;
   --dark: #424242;
   --light: #FCFCFF;
+
+  color: var(--dark);
+  background-color: var(--light);
 }
 
 body {
   margin: 0;
   padding: 0;
   background-color: var(--light);
+}
+
+a:hover {
+  color: var(--secondary);
 }
 
 button {
@@ -23,30 +30,44 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color:var(--primary);
+  color: var(--light);
+  background-color:var(--dark);
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
-  /* border-color: var(--primary); */
   background-color: var(--primary);
   color: var(--dark);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: var(--dark);
-    background-color: var(--light);
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 0.5em;
+  height: 300px;
+  min-height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .flex-item {
+    flex: 0 0 46%;
+    max-width: 46%;
   }
-  a:hover {
-    color: var(--secondary);
-  }
-  button {
-    background-color: var(--dark);
-    color: var(--light);
+}
+
+@media screen and (min-width: 980px) {
+  .flex-item {
+    flex: 0 0 30%;
+    max-width: 30%;
   }
 }

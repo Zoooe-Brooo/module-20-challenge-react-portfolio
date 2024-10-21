@@ -77,13 +77,13 @@ export default function ContactPage() {
     };
 
     return (
-        <div className="container pt-4">
+        <div>
             <h2>Contact</h2>
             <p>My Email: zhongwenli.zoe@gmail.com</p>
             <p>My Phone Number: +61 423711648</p>
             <form onSubmit={handleSubmit}>
-                <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Name</label><br />
+                <div>
+                    <label htmlFor="name">Name</label><br />
                     <input
                         type="text"
                         className={`form-control ${errors.name ? 'is-invalid' : ''}`}
@@ -92,10 +92,10 @@ export default function ContactPage() {
                         onChange={handleChange}
                         onBlur={handleBlur}
                     />
-                    {errors.name && <div className="invalid-feedback">{errors.name}</div>}
+                    {errors.name && <div className="invalid-message">{errors.name}</div>}
                 </div>
-                <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Email</label><br />
+                <div>
+                    <label htmlFor="email">Email</label><br />
                     <input
                         type="email"
                         className={`form-control ${errors.email ? 'is-invalid' : ''}`}
@@ -104,10 +104,10 @@ export default function ContactPage() {
                         onChange={handleChange}
                         onBlur={handleBlur}
                     />
-                    {errors.email && <div className="invalid-feedback">{errors.email}</div>}
+                    {errors.email && <div className="invalid-message">{errors.email}</div>}
                 </div>
-                <div className="mb-3">
-                    <label htmlFor="message" className="form-label">Message</label><br />
+                <div>
+                    <label htmlFor="message">Message</label><br />
                     <textarea
                         className={`form-control ${errors.message ? 'is-invalid' : ''}`}
                         id="message"
@@ -116,9 +116,9 @@ export default function ContactPage() {
                         onChange={handleChange}
                         onBlur={handleBlur}
                     />
-                    {errors.message && <div className="invalid-feedback">{errors.message}</div>}
+                    {errors.message && <div className="invalid-message">{errors.message}</div>}
                 </div>
-                <button type="submit" className="btn btn-primary">Submit</button>
+                <button type="submit">Submit</button>
             </form>
         </div>
     );
