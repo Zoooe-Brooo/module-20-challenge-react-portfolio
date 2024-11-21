@@ -6,6 +6,7 @@ import WeatherDashboard from '../assets/weather-dashboard-screenshot.png';
 import TechBlog from '../assets/tech-blog-screenshot.png';
 import BookHive from '../assets/book-hive-screenshot.png';
 import StudentSearchEngine from '../assets/student-search-engine-screenshot.png';
+import Taskable from '../assets/taskable-screenshot.png';
 
 const projects = [
     {
@@ -49,6 +50,13 @@ const projects = [
         website: "https://jovana667.github.io/student-search-engine/",
         github: "https://github.com/Zoooe-Brooo/student-search-engine",
         project_id: 6,
+    },
+    {
+        image: Taskable,
+        name: "Taskable - Group Project",
+        website: "https://taskable.onrender.com/",
+        github: "https://github.com/Zoooe-Brooo/taskable",
+        project_id: 7,
     },
 ];
 
