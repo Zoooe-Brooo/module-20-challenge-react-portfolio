@@ -31,10 +31,10 @@ const projects = [
         project_id: 3,
     },
     {
-        image: TechBlog,
-        name: "Tech Blog",
-        website: "https://module-14-challenge-tech-blog.onrender.com/",
-        github: "https://github.com/Zoooe-Brooo/module-14-challenge-tech-blog",
+        image: Taskable,
+        name: "Taskable - Group Project",
+        website: "https://taskable.onrender.com/",
+        github: "https://github.com/Zoooe-Brooo/taskable",
         project_id: 4,
     },
     {
@@ -52,10 +52,10 @@ const projects = [
         project_id: 6,
     },
     {
-        image: Taskable,
-        name: "Taskable - Group Project",
-        website: "https://taskable.onrender.com/",
-        github: "https://github.com/Zoooe-Brooo/taskable",
+        image: TechBlog,
+        name: "Tech Blog",
+        website: "https://module-14-challenge-tech-blog.onrender.com/",
+        github: "https://github.com/Zoooe-Brooo/module-14-challenge-tech-blog",
         project_id: 7,
     },
 ];
