@@ -52,13 +52,6 @@ const projects = [
         github: "https://github.com/Zoooe-Brooo/module-5-challenge-task-board",
         project_id: 6,
     },
-    {
-        image: PersonalBlog,
-        name: "Personal Blog",
-        website: "https://zoooe-brooo.github.io/module-4-challenge-personal-blog/",
-        github: "https://github.com/Zoooe-Brooo/module-4-challenge-personal-blog",
-        project_id: 7,
-    },
 ];
 
 export default function PortfolioPage() {
