@@ -31,14 +31,22 @@ button {
   font-weight: 500;
   font-family: inherit;
   color: var(--light);
-  background-color:var(--dark);
+  background-color: var(--dark);
   cursor: pointer;
   transition: border-color 0.25s;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
 }
 
 button:hover {
   background-color: var(--primary);
   color: var(--dark);
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .flex-container {

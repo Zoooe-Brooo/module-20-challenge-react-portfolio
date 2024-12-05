@@ -78,48 +78,48 @@ export default function ContactPage() {
 
     return (
         <div>
-            <h2>Contact</h2>
-            <p>My Email: zhongwenli.zoe@gmail.com</p>
-            <p>My Phone Number: +61 423711648</p>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name</label><br />
-                    <input
-                        type="text"
-                        className={`form-control ${errors.name ? 'is-invalid' : ''}`}
-                        id="name"
-                        value={formState.name}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                    />
-                    {errors.name && <div className="invalid-message">{errors.name}</div>}
-                </div>
-                <div>
-                    <label htmlFor="email">Email</label><br />
-                    <input
-                        type="email"
-                        className={`form-control ${errors.email ? 'is-invalid' : ''}`}
-                        id="email"
-                        value={formState.email}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                    />
-                    {errors.email && <div className="invalid-message">{errors.email}</div>}
-                </div>
-                <div>
-                    <label htmlFor="message">Message</label><br />
-                    <textarea
-                        className={`form-control ${errors.message ? 'is-invalid' : ''}`}
-                        id="message"
-                        rows="3"
-                        value={formState.message}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                    />
-                    {errors.message && <div className="invalid-message">{errors.message}</div>}
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+            <h2 className="page-title">Contact</h2>
+            <div className="page-content">
+                <form onSubmit={handleSubmit}>
+                    <div>
+                        <label htmlFor="name">Name</label><br />
+                        <input
+                            type="text"
+                            className={`form-control ${errors.name ? 'is-invalid' : ''}`}
+                            id="name"
+                            value={formState.name}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                        />
+                        {errors.name && <div className="invalid-message">{errors.name}</div>}
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email</label><br />
+                        <input
+                            type="email"
+                            className={`form-control ${errors.email ? 'is-invalid' : ''}`}
+                            id="email"
+                            value={formState.email}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                        />
+                        {errors.email && <div className="invalid-message">{errors.email}</div>}
+                    </div>
+                    <div>
+                        <label htmlFor="message">Message</label><br />
+                        <textarea
+                            className={`form-control ${errors.message ? 'is-invalid' : ''}`}
+                            id="message"
+                            rows="3"
+                            value={formState.message}
+                            onChange={handleChange}
+                            onBlur={handleBlur}
+                        />
+                        {errors.message && <div className="invalid-message">{errors.message}</div>}
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </div>
     );
 }

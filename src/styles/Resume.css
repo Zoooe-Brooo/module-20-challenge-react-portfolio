@@ -9,6 +9,10 @@
   line-height: 1.3;
 }
 
+#download {
+  text-align: center;
+}
+
 #resume {
   text-decoration:underline;
   color: var(--dark);

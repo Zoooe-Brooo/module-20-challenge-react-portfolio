@@ -8,7 +8,7 @@ function App() {
     <>
       <Header />
       <div className="page">
-      <Outlet />
+        <Outlet />
       </div>
       <Footer />
     </>

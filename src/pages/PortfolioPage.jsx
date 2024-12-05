@@ -1,6 +1,5 @@
 import Project from "../components/Project";
 import '../styles/Portfolio.css';
-import PersonalBlog from '../assets/personal-blog-screenshot.png';
 import TaskBoard from '../assets/task-board-screenshot.png';
 import WeatherDashboard from '../assets/weather-dashboard-screenshot.png';
 import TechBlog from '../assets/tech-blog-screenshot.png';
@@ -57,7 +56,7 @@ const projects = [
 export default function PortfolioPage() {
     return (
         <>
-            <h2>Portfolio</h2>
+            <h2 className="page-title">Portfolio</h2>
             <div className="flex-container">
                 {projects.map((project) => (
                     <div key={project.project_id} className="project flex-item">

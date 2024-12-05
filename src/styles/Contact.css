@@ -5,3 +5,19 @@
     font-size: 80%;
     color: var(--secondary);
 }
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.page-content input,
+.page-content textarea {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid var(--dark);
+    border-radius: 4px;
+}
