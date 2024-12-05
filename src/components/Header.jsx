@@ -5,8 +5,8 @@ export default function Header() {
   return (
     <>
       <header>
-        <Navigation />
-        <h1>Zoe</h1>
+      <h1 id="header-name">Zoe</h1>
+      <Navigation />
       </header>
     </>
   );

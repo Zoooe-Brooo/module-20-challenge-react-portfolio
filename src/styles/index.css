@@ -3,10 +3,10 @@
   line-height: 1.5;
   font-weight: 400;
 
-  --background: #effbff;
-  --primary: #ADE1E6;
+  --background: #f2faff;
+  --primary: #6ebde4;
   --secondary: #8FD694;
-  --dark: #424242;
+  --dark: #5a5a5a;
   --light: #FCFCFF;
 
   color: var(--dark);

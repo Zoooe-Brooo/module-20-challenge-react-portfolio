@@ -5,12 +5,20 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--dark);
+  background-color: var(--light);
 }
 
-header h1 {
-  color: var(--light);
-  padding: 20px;
-  margin: 0;
+@media screen and (max-width: 518px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
-  
+
+#header-name {
+  color: var(--primary);
+  padding: 10px 20px;
+  margin: 0;
+}  
