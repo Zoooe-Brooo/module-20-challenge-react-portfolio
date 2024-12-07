@@ -10,7 +10,7 @@ li {
   text-decoration: none;
 }
 
-@media screen and (max-width: 518px) {
+@media screen and (max-width: 647px) {
   li {
     display: block;
   }

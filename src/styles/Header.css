@@ -8,7 +8,7 @@ header {
   background-color: var(--light);
 }
 
-@media screen and (max-width: 518px) {
+@media screen and (max-width: 647px) {
   header {
     display: flex;
     flex-direction: column;
